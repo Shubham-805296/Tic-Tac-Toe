@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <section class="text-center">
+    <div class="glass-box">
+      <h1 class="text-capitalize text-light">Tic-Tac-Toe Game</h1>
+      <div class="container">
+        <div id="index-0" class="cell"></div>
+        <div id="index-1" class="cell"></div>
+        <div id="index-2" class="cell"></div>
+        <div id="index-3" class="cell"></div>
+        <div id="index-4" class="cell"></div>
+        <div id="index-5" class="cell"></div>
+        <div id="index-6" class="cell"></div>
+        <div id="index-7" class="cell"></div>
+        <div id="index-8" class="cell"></div>
+      </div>
+      <div class="d-flex gap-3 justify-content-center pt-3 ">
+        <div id="player-1" class="fs-5 bg-secondary text-light form-control pt-2 ">Player-1 (X)</div>
+        <div id="player-2" class="fs-5 bg-secondary text-light form-control pt-2">Player-2 (O)</div>
+        <div id="status" class=" fs-4 bg-secondary text-light form-control pt-2">Game Status</div> <button type="button"
+          class="btn btn-primary">Restart</button>
+      </div>
+      <div class="scoreboard d-flex justify-content-between">
+        <div id="score-x" class="score text-warning fs-4 pt-2">Score: 0</div>
+        <div id="score-o" class="score text-warning fs-4 pt-2">Score: 0</div>
+      </div>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>

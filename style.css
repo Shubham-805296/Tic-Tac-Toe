@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://c7.uihere.com/files/386/12/883/toys-play-wood-wooden-toys.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  position: relative;
+}
+
+
+section {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass-box {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  border: 3px solid beige;
+ width: 45%;
+  text-align: center;
+ 
+}
+
+
+.container {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 2rem;
+       position: relative;
+       grid-gap: 10px;
+    }
+
+
+
+
+.cell {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  font-size: 4rem;
+ font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+}
+
+
+.x-style {
+  color: red;
+}
+
+.o-style {
+  color: gold;
+}
+
+.scoreboard{
+    width: 300px;
+}
+
+
+
+
